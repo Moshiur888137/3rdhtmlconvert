@@ -1,0 +1,102 @@
+/* Tablet Layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+    .main_header_area { overflow: initial;}
+    .logo {width: 41%; float: none; margin: auto;margin-top: 66px;}
+    .img_logo {width: 13%;margin-left: 60px;}
+    .text_logo {width: 67%;}
+    section#branding_area { padding: 96px 0px;}
+    .branding_i {margin-top: 64px;margin-bottom: -96px;}
+    .text_branding {padding: 40px 0px;}
+    .text_branding h2 {font-size: 32px;width: 52%;}
+    .service_body {margin: 32px 0px;}
+    .single_service_body {width: 22%;}
+    section#methood_area {padding: 14px 0px;}
+    .methood_heading h2 {font-size: 26px;}
+    .methood_heading p {font-size: 14px;padding: 0px 158px;}
+    .methood_body {padding: 0px 0px;}
+    .single_methood {width: 33%;margin-right: 0px; margin-top: 45px;}
+    section#work_area { padding: 11px 0px;}
+    .work_list {padding: 35px 0px;}
+    .work_body_img {width: 87%;float: none;margin-right: 0px; margin: auto;}
+    .work_body_text {width: 85%;float: none; padding: 0px 0px;text-align: center;margin: auto; margin-bottom: 10px;}
+    .work_down {margin-top: 18px;}
+    .work_down_img-1 { width: 15%;height: 95px;padding: 6px;}
+    .work_down_img-2 {width: 15%;height: 95px;padding: 6px;}
+    .wPortfolio_text h3 {font-size: 20px;letter-spacing: 0px; margin-top: 22px; }
+    section#productNum_area {padding: 10px 0px;}
+    .productNum_heading h3 {font-size: 22px;letter-spacing: 0px;}
+    .productNum_heading p {margin-top: 22px;padding: 0px 139px;}
+    .productNum_body {padding: 20px 57px;}
+    .single_productNum {width: 22%;height: 98px;}
+    section#about_area {padding: 19px 0px;}
+    .aboutBlog_icon { margin-top: 74px;}
+    .aboutBlog_text {width: 78%;}
+    .team_imgText {width: 36%; margin-left: 72px;margin-right: 0px;}
+    .about_team {padding: 25px 0px;padding-bottom: 0px;}
+    section#jhon_profile {padding: 25px 0px;}
+    .main_profile {padding: 0px 35px;}
+    section#skills_area {padding: 0px 0px;}
+    .skills_title p {padding: 0px 40px;}
+    .single_skill { width: 19%;margin-left: 154px;}
+    section#clients_area {padding: 16px 0px 0px 0px;}
+    .title_clients p {padding: 0px 54px;}
+    .quote_clients h4 {width: 65%;}
+    .quote_clients h4::after {top: 116px;}
+    section#contact_area {padding: 0px 0px;}
+    .contact_headding p {padding: 0px 50px;}
+    .single_option {width: 30%;margin-left: 25px;margin-right: 0px;}
+    .messege_area {padding: 0px 0px;}
+    .messege_heading p {padding: 0px 50px;}
+    .top_input input {width: 28%;}
+    .bottom_input textarea {width: 98%;}
+}
+
+/* mobile Layout */
+@media only screen and (min-width:200px) and (max-width:480px){
+    .img_logo { width: 26%;margin-left: 10px;}
+    .text_branding h2 {font-size: 19px;width: 64%;}
+    .service_heading h3 { font-size: 24px;}
+    .service_heading p {font-size: 14px;}
+    .single_service_body {width: 49%;margin-right: 0px;}
+    .methood_heading p {padding: 0px 35px;}
+    .single_methood {width: 49%; margin-top: 27px;}
+    .work_heading h3 {font-size: 24px;}
+    .work_heading p {margin: 0px 15px;}
+    .work_list ul li {margin-right: 17px;}
+    .work_list ul li::after {display: none;}
+    .work_down_img-1 { width: 13%;height: 40px;padding: 7px;}
+    .work_down_img-2 {width: 13%;height: 40px;padding: 6px;padding-bottom: 8px;}
+    .productNum_heading h3 {font-size: 16px;letter-spacing: -0.3px;}
+    .productNum_heading p {padding: 0px 15px;}
+    .single_productNum {width: 46%;margin-bottom: 18px;margin-left: 5px;margin-right: 0px;}
+    .about_heading {padding: 0px 24px;}
+    .single_about {width: 100%;margin: 0px 0px 20px 16px; }
+    .team_headding p {padding: 0px 26px;}
+    .team_img {margin: auto;margin-bottom: -42px;}
+    .team_text { width: 72%;margin: auto;}
+    .team_imgText {width: 100%;margin-left: 0px;margin-right: 0px;}
+    .single_skill {width: 33%;margin-left: 103px;}
+    .single_skill h3 {height: 110px;line-height: 110px;}
+    .title_clients h3 {font-size: 22px;letter-spacing: -0.8px;}
+    .title_clients p {padding: 0px 21px;font-size: 14px;}
+    .quote_clients h4 {width: 90%;}
+    .quote_clients h4::after {top: 165px;}
+    .contact_headding h3 {font-size: 24px;}
+    .contact_headding p {padding: 0px 16px;}
+    .single_option {width: 100%;margin-left: 0px;margin-right: 0px;margin-bottom: 35px;}
+    .messege_heading h3 {font-size: 24px;}
+    .messege_heading p {padding: 0px 21px;font-size: 14px;}
+    .messege_input { padding: 10px 45px;}
+    .top_input input {width: 84%;margin-right: 0px;margin-bottom: 14px;padding: 21px;}
+    .bottom_input textarea {width: 96%;}
+    .bottom_input input {padding: 20px;padding-bottom: 28px;}
+
+
+
+
+
+
+
+
+
+}

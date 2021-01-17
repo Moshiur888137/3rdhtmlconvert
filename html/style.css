@@ -1,0 +1,1276 @@
+/* =====================================================
+common csss
+======================================================= */
+body{
+    font-family: Tahoma;
+    font-weight: normal;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.container{
+    margin: auto;
+    max-width: 1180px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* =====================================================
+header area csss
+======================================================= */
+header#header_area {
+    background: #122a2f;
+    padding: 2px 0px;
+    position: relative;
+}
+
+.main_header_area {
+    overflow: hidden;
+}
+
+.logo {
+    width: 19%;
+    float: left;
+    margin-bottom: -7px;
+    overflow: hidden;
+}
+
+.img_logo {
+    width: 17%;
+    float: left;
+}
+
+.text_logo {
+    float: left;
+    width: 83%;
+}
+
+.text_logo h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 28px;
+}
+
+.text_logo h4 {
+    font-size: 9px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: -37px;
+    letter-spacing: 0.5rem;
+}
+
+.heading_text {
+    width: 81%;
+    float: left;
+    margin-top: 25px;
+    position: absolute;
+    right: 21px;
+}
+
+.heading_text ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 18px;
+}
+
+.heading_text ul li {
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+
+.heading_text ul li:last-child {
+    margin-right: 0px;
+}
+
+.heading_text ul li::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #ffe600;
+    border-radius: 100%;
+    top: 12px;
+    right: -27px;
+}
+
+.heading_text ul li:last-child::after {
+    display: none;
+}
+
+.heading_text ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+nav.heading_text ul li:hover ul {
+    visibility: visible;
+}
+
+/* ----Dropdown------ */
+nav.heading_text ul ul {
+    position: absolute;
+    width: 107px;
+    background: #122a2f;
+    top: 22px;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+nav.heading_text ul ul li {
+    display: block;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+nav.heading_text ul ul li:last-child {
+    margin-right: 14px;
+}
+
+nav.heading_text ul ul li::after {
+    display: none;
+}
+/* ----Dropdown1----- */
+nav.heading_text ul ul ul {
+    position: absolute;
+    width: 117px;
+    left: 107px;
+    top: 4px;
+}
+
+nav.heading_text ul li:hover ul ul {
+    visibility: hidden;
+}
+
+nav.heading_text ul li ul li:hover ul {
+    visibility: visible;
+}
+
+
+/* =====================================================
+branding area csss
+======================================================= */
+
+section#branding_area {
+    background: #11343a;
+    padding: 205px 0px;
+}
+
+.main_branding {
+    overflow: auto;
+    background: #122a2f;
+}
+
+.text_branding {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.text_branding h2 {
+    font-size: 37px;
+    font-weight: normal;
+    width: 40%;
+    margin: auto;
+    line-height: 2.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.text_branding button {
+    padding: 11px 20px;
+    background: #ffe600;
+    border: none;
+    transition: all 0.5s;
+}
+
+.text_branding button:hover {
+    background: #ffffff;
+    color: #ffe600;
+}
+
+.branding_i {
+    width: 43px;
+    height: 43px;
+    background: #ffe600;
+    text-align: center;
+    margin: auto;
+    margin-top: 162px;
+    margin-bottom: -205px;
+    transition: all 0.5s;
+}
+
+.branding_i i {
+    color: #ffffff;
+    display: block;
+    margin-bottom: -22px;
+    padding-top: 13px;
+    transition: all 0.5s;
+}
+
+.branding_i:hover {
+    background: #ffffff;
+}
+
+.branding_i:hover i {
+    color: #ffe600;
+}
+
+/* =====================================================
+service area csss
+======================================================= */
+
+section#service_area {
+    background: #ffffff;
+    padding: 20px 0px;
+}
+
+.main_service {
+    overflow: hidden;
+}
+
+.service_heading {
+    text-align: center;
+    margin: 0px 29px;
+}
+
+.service_heading h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #515151;
+}
+
+.service_heading h3 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 38px;
+    position: relative;
+}
+
+.service_heading p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #707070;
+}
+
+.service_heading h3::after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    background: #ffe600;
+    top: 42px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.single_service_body {
+    width: 23%;
+    float: left;
+    margin-right: 28px;
+    text-align: center;
+}
+
+.single_service_body:last-child {
+    margin-right: 0px;
+}
+
+.single_i {
+    width: 99px;
+    height: 99px;
+    margin: auto;
+    line-height: 108px;
+    background: #ffe600;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.single_i i {
+    font-size: 35px;
+}
+
+.single_i:hover {
+    background: #ffffff;
+    color: #ffe600;
+}
+
+.single_service_body h3 {
+    font-size: 12px;
+    color: #131316;
+    margin-bottom: -11px;
+}
+
+.single_service_body p {
+    font-size: 12px;
+    color: #707070;
+    line-height: 1.1rem;
+}
+
+/* =====================================================
+methood area csss
+======================================================= */
+
+section#methood_area {
+    background: #131a1d;
+    padding: 60px 0px;
+}
+
+.main_methood {
+    overflow: hidden;
+}
+
+.methood_heading {
+    text-align: center;
+}
+
+.methood_heading h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffe600;
+}
+
+.methood_heading p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.single_methood {
+    width: 14%;
+    float: left;
+    margin-right: 37px;
+    text-align: center;
+}
+
+.methood_body {
+    padding: 40px 0px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.single_methood:last-child {
+    margin-right: 0px;
+}
+
+.single_methood i {
+    color: #ffe600;
+    font-size: 35px;
+}
+
+.single_methood h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 19px;
+}
+
+.single_methood p {
+    font-size: 13px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: -5px;
+}
+
+/* =====================================================
+work area csss
+======================================================= */
+
+section#work_area {
+    padding: 50px 0px;
+    background: #ffffff;
+}
+
+.main_work {
+    overflow: hidden;
+}
+
+.work_heading {
+    text-align: center;
+}
+
+.work_heading h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #515151;
+    margin-bottom: -7px;
+}
+
+.work_heading h3 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 18px;
+    position: relative;
+    margin-bottom: 46px;
+}
+
+.work_heading h3::after {
+    position: absolute;
+    content: '';
+    width: 175px;
+    height: 3px;
+    background: #ffe600;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.work_heading p {
+    font-size: 13px;
+    color: #707070;
+    margin: 0px 82px;
+}
+
+.work_list {
+    padding: 45px 0px;
+    text-align: center;
+}
+
+.work_list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.work_list ul li {
+    display: inline-block;
+    margin-right: 42px;
+    position: relative;
+}
+
+.work_list ul li:last-child {
+    margin-right: 0px;
+}
+
+.work_list ul li::after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #ffe600;
+    top: 8px;
+    right: -26px;
+}
+
+.work_list ul li:last-child::after {
+    display: none;
+}
+
+.work_list ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #515151;
+    transition: all 0.5s;
+}
+
+.work_list ul li a:hover {
+    color: #ffe600;
+}
+
+.work_body_img {
+    width: 57%;
+    float: left;
+    margin-right: 25px;
+}
+
+.work_body_text {
+    width: 40%;
+    float: left;
+    padding: 60px 0px;
+}
+
+.work_body_text h4 {
+    font-size: 25px;
+    color: #515151;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+
+.work_body_text p {
+    font-size: 14px;
+    color: #707070;
+}
+
+.work_body_text button {
+    padding: 17px 28px;
+    font-size: 17px;
+    background: #ffe600;
+    border: none;
+    color: #ffffff;
+    margin-top: 6px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.work_body_text button:hover {
+    background: #000000;
+    color: #ffe600;
+}
+
+/* ------------------ work_down---------------- */
+
+.work_down {
+    margin-top: 55px;
+}
+
+.main_work{
+    overflow: hidden;
+}
+
+
+.work_down_img-1 {
+    width: 15%;
+    height: 175px;
+    background: #11343a;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.work_down_img-2 {
+    width: 15%;
+    height: 175px;
+    background: #394948;
+    float: left;
+    padding: 10px;
+}
+
+.work_down_img-1 span {
+    font-size: 19px;
+    font-weight: normal;
+    display: block;
+    margin-top: 75px;
+    visibility: hidden;
+}
+
+.work_down_img-1 span strong {
+    font-size: 10px;
+    font-weight: normal;
+    display: block;
+}
+
+.work_down_img-1:hover {
+    background: #cfc20c;
+}
+
+.work_down_img-1:hover span {
+    visibility: visible;
+}
+
+/* -----------portfolio----------- */
+
+
+.main_work_portfolio {
+    overflow: hidden;
+}
+
+.work_portfolio {
+    margin: 20px 0px;
+}
+
+.wPortfolio_arrow{
+    width: 43px;
+    height: 43px;
+    background: #ffe600;
+    text-align: center;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+.wPortfolio_arrow i{
+    color: #ffffff;
+    display: block;
+    margin-bottom: -22px;
+    padding-top: 13px;
+    transition: all 0.5s;
+}
+
+.wPortfolio_arrow:hover {
+    background: #ffffff;
+}
+
+.wPortfolio_arrow:hover i {
+    color: #ffe600;
+}
+
+.wPortfolio_text {
+    text-align: center;
+}
+
+.wPortfolio_text h3 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    color: #000000;
+    margin-top: 32px;
+}
+
+.wPortfolio_text p {
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 33px;
+}
+
+.wPortfolio_text button {
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #ffe600;
+    border: none;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.wPortfolio_text button:hover {
+    background: #000000;
+    color: #ffe600;
+}
+
+/* =====================================================
+product number area csss
+======================================================= */
+
+section#productNum_area {
+    background: #131a1d;
+    padding: 40px 0px;
+}
+
+.main_productNum {
+    overflow: hidden;
+}
+
+.productNum_heading {
+    text-align: center;
+    color: #ffffff;
+}
+
+.productNum_heading h3 {
+    font-size: 23px;
+    font-weight: normal;
+    letter-spacing: -0.6px;
+}
+
+.productNum_heading p {
+    font-size: 12px;
+    margin-top: -11px;
+}
+
+.productNum_body {
+    padding: 20px 100px;
+    overflow: hidden;
+}
+
+.single_productNum {
+    width: 23%;
+    float: left;
+    border: 1px solid #ffe600;
+    margin-right: 23px;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.single_productNum:last-child {margin-right: 0px;}
+
+.single_productNum h4 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.single_productNum span {
+    font-size: 15px;
+    color: #ffe600;
+    font-weight: normal;
+}
+
+/* =====================================================
+about area csss
+======================================================= */
+
+section#about_area {
+    padding: 50px 0px;
+}
+
+.main_about {
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.about_heading {
+    text-align: center;
+    padding: 0px 35px;
+}
+
+.about_heading h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #515151;
+    margin-top: 0px;
+}
+
+.about_heading h3 {
+    position: relative;
+    font-size: 30px;
+    font-weight: normal;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.about_heading h3::after {
+    position: absolute;
+    content: '';
+    width: 178px;
+    height: 2px;
+    background: #ffe600;
+    top: 42px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about_heading p {
+    font-size: 15px;
+    color: #707070;
+}
+
+.about_blog {
+    padding: 20px 25px 0px 0px;
+    overflow: hidden;
+}
+
+.single_about {
+    width: 47%;
+    float: left;
+    margin: 0px 0px 25px 20px;
+}
+
+.aboutBlog_icon {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.aboutBlog_icon i {
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    background: #ffe600;
+    line-height: 55px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.aboutBlog_text {
+    float: left;
+    width: 80%;
+}
+
+.aboutBlog_text h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #515151;
+    margin-bottom: -8px;
+}
+
+.aboutBlog_text p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #707070;
+}
+/* ------tean-------- */
+.about_team {
+    background: #fbfbfb;
+    padding: 40px 0px;
+}
+
+.mainAbout_team {
+    overflow: hidden;
+}
+
+.team_headding {
+    text-align: center;
+}
+
+.team_textImg_wrapper {
+    overflow: hidden;
+}
+
+.team_headding h5 {
+    font-size: 19px;
+    font-weight: normal;
+    margin: 0px 0px;
+}
+
+.team_headding p {
+    padding: 0px 77px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #707070;
+}
+
+.team_imgText {
+    padding: 20px 0px;
+    width: 23%;
+    float: left;
+    margin-right: 31px;
+}
+
+.team_imgText:last-child {
+    margin-right: 0px;
+}
+
+.team_img {
+    width: 270px;
+    height: 211px;
+}
+
+.team_text {
+    text-align: center;
+    margin-top: -25px;
+    background: #ffffff;
+    box-shadow: 0px 1px 0px 0px #dfe4e5;
+}
+
+.team_text h6 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffe600;
+    margin-bottom: 4px;
+}
+
+.team_text span {
+    font-size: 13px;
+    color: #707070;
+}
+
+/* =====================================================
+jhon profile area csss
+======================================================= */
+
+section#jhon_profile {
+    background: #131316;
+    padding: 30px 0px;
+}
+
+.main_profile {
+    overflow: hidden;
+}
+
+.profile_heading {
+    overflow: hidden;
+}
+
+.single_profile .profile_heading h2 {
+    width: 90%;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffe600;
+}
+
+.single_profile .profile_heading i {
+    width: 10%;
+    float: right;
+    text-align: right;
+    color: #ffffff;
+    border: none;
+    margin: 0px 0px;
+    line-height: 65px;
+}
+
+.single_profile p {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.single_profile i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* =====================================================
+skills area csss
+======================================================= */
+
+section#skills_area {
+    padding: 40px 0px;
+    background: #131a1d;
+}
+
+.main_skills {
+    overflow: hidden;
+}
+
+.skills_title {
+    text-align: center;
+}
+
+.skills_title h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.skills_title p {
+    font-size: 15px;
+    color: #fff;
+}
+
+.single_skill {
+    width: 12%;
+    float: left;
+    text-align: center;
+    margin-left: 118px;
+    color: #ffe600;
+}
+
+.skills_body {
+    overflow: hidden;
+    margin: auto;
+}
+
+.single_skill h3 {
+    width: 90%;
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+    font-size: 39px;
+    font-weight: normal;
+    line-height: 127px;
+}
+
+.single_skill h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -13px;
+}
+
+/* =====================================================
+clients area csss
+======================================================= */
+section#clients_area {
+    padding: 50px 0px 0px 0px;
+}
+
+.mmain_clients {
+    overflow: hidden;
+}
+
+.title_clients {
+    text-align: center;
+}
+
+.title_clients h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.title_clients h3 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 18px 0px 35px 0px;
+    position: relative;
+}
+
+.title_clients h3::after {
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 2px;
+    background: #ffe600;
+    top: 43px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title_clients p {
+    font-size: 15px;
+    color: #707070;
+}
+
+/* ------quote------ */
+.quote_area {
+    background: #131a1d;
+    padding: 35px 0px;
+}
+
+.main_quote {
+    overflow: hidden;
+}
+
+.quote_clients {
+    color: #ffffff;
+    text-align: center;
+}
+
+.quote_clients h4 {
+    width: 51%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.quote_clients h4::after {
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 2px;
+    background: #ffe600;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote_clients h5 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #e0e1e1;
+}
+
+.quote_clients .span1 {
+    position: relative;
+    margin-right: 11px;
+}
+
+.quote_clients .span1::after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+}
+
+.quote_clients .span1:hover::after{
+    background: #ffe600;
+}
+
+/* =====================================================
+contact area csss
+======================================================= */
+section#contact_area {
+    background: #fbfbfb;
+    padding: 40px 0px;
+}
+
+.main_contact {
+    overflow: hidden;
+}
+
+.contact_headding {
+    text-align: center;
+}
+
+.contact_headding h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #515151;
+    margin-bottom: -9px;
+}
+
+.contact_headding h3 {
+    font-size: 28px;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.contact_headding h3::after {
+    position: absolute;
+    content: '';
+    width: 175px;
+    height: 2px;
+    background: #ffe600;
+    top: 47px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact_headding p {
+    font-size: 15px;
+    color: #707070;
+}
+
+.contact_option {
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.single_option {
+    width: 27%;
+    float: left;
+    margin-right: 112px;
+    text-align: center;
+}
+
+.single_option:last-child {
+    margin-right: 0px;
+}
+
+.single_option i {
+    font-size: 30px;
+    color: #ffe600;
+}
+
+.single_option h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #131316;
+    margin-top: 14px;
+    margin-bottom: 9px;
+}
+
+.single_option span {
+    font-size: 17px;
+    color: #515151;
+}
+
+/* ---messege area----- */
+.messege_area {
+    background: #131a1d;
+    padding: 40px 0px;
+}
+
+.main_messege {
+    overflow: hidden;
+}
+
+.messege_heading {
+    text-align: center;
+}
+
+.messege_heading h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.messege_heading p {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: -6px;
+}
+
+.messege_input {
+    overflow: hidden;
+    padding: 10px 90px;
+}
+
+.top_input input {
+    width: 30%;
+    margin-right: 18px;
+    padding: 7px;
+    background: #131a1d;
+    border: 1px solid #fff;
+    border-top: 1px solid #626668;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.top_input input:last-child {
+    margin-right: 0px;
+}
+
+.bottom_input {
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+.bottom_input textarea {
+    width: 98%;
+    padding: 0px 6px 70px 6px;
+    background: #131a1d;
+    border: 1px solid #ffffff;
+    border-top: 1px solid #626668;
+    color: #ffffff;
+}
+.bottom_input input {
+    display: grid;
+    margin: auto;
+    margin-top: 13px;
+    padding: 12px;
+    background: #ffe600;
+    color: #000000;
+    border: none;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.bottom_input input:hover {
+    background: #ffffff;
+    color: #ffe600;
+}
+
+/* =====================================================
+footer area csss
+======================================================= */
+footer#footer_area {
+    background: #131316;
+    padding: 15px 0px;
+    margin-top: -40px;
+}
+
+.main_footer {
+    overflow: hidden;
+    text-align: center;
+}
+
+.first_footer h6 {
+    font-weight: normal;
+    font-size: 13px;
+    color: #6c6c6e;
+    margin-bottom: 19px;
+}
+
+.first_footer .first_icon i {
+    font-size: 22px;
+    margin-right: 10px;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.first_footer .first_icon i:hover {
+    color: #ffe600;
+}
+
+.last_footer {
+    width: 42px;
+    height: 42px;
+    margin: auto;
+    background: #ffe600;
+    margin-top: 15px;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.last_footer i {
+    display: block;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.last_footer:hover {
+    background: #ffffff;
+    color: #ffe600;
+}
